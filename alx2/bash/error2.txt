@@ -1,0 +1,9 @@
+total 24
+drwxrwxr-x 2 vincent vincent 4096 Mac 23 15:54 .
+drwxrwxr-x 4 vincent vincent 4096 Nov 22 17:51 ..
+-rw-rw-r-- 1 vincent vincent    0 Mac 23 15:54 error2.txt
+-rwxrw-r-- 1 vincent vincent   87 Mac 23 15:37 hellothere.sh
+-rwxrw-r-- 1 vincent vincent  138 Mac 23 15:41 interactive.sh
+-rwxrw-r-- 1 vincent vincent   33 Mac 23 15:48 posarg.sh
+-rw-rw-r-- 1 vincent vincent  343 Mac 23 15:50 vincent
+cat: error.txt: No such file or directory

@@ -1,0 +1,56 @@
+#include <stdio.h>
+
+void set(int *a)
+{
+	*a=20;
+
+	printf("set value is %d\n",*a);
+
+}
+
+int main()
+{
+	int a=10;
+	int*ptr=&a;
+
+	printf("value inside a %d\n",a);
+
+	set(ptr);
+	
+
+	printf("value of a after setting %d\n",a);
+
+	return 0;
+
+}
+
+
+#include <stdio.h>
+
+
+void set(int *a)
+{
+	      *a=20;
+
+
+        printf("value of a is %d\n",*a);
+        printf("value of a is %d\n",*a);
+
+}
+
+int main()
+{
+	int a =10;
+		
+	int*ptr=&a;
+
+	printf("value of a is %d\n", a);
+	printf("value of a is %d\n", *ptr);
+	set(ptr);
+			
+	
+
+	return 0;
+
+
+}

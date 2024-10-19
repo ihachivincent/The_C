@@ -1,0 +1,218 @@
+total 168
+drwxrwxr-x 2 vincent vincent  4096 Apr  7 01:06 .
+drwxrwxr-x 4 vincent vincent  4096 Nov 22 17:51 ..
+-rwxrwxr-x 1 vincent vincent 16104 Apr  6 21:40 else
+-rwxrwxr-x 1 vincent vincent 16104 Apr  7 01:01 else2
+-rwxrw-r-- 1 vincent vincent   370 Apr  7 01:00 else2.c
+-rwxrw-r-- 1 vincent vincent   384 Apr  6 21:30 else.c
+-rwxrwxr-x 1 vincent vincent 16104 Apr  6 18:15 elseif
+-rwxrwxr-x 1 vincent vincent 15960 Apr  6 20:05 elseif2
+-rwxrw-r-- 1 vincent vincent   201 Apr  6 20:05 elseif2.c
+-rwxrw-r-- 1 vincent vincent   299 Apr  6 18:15 elseif.c
+-rwxrwxr-x 1 vincent vincent 16104 Apr  6 17:39 if
+-rwxrwxr-x 1 vincent vincent 15960 Apr  6 17:42 if2
+-rwxrw-r-- 1 vincent vincent   197 Apr  6 17:42 if2.c
+-rwxrw-r-- 1 vincent vincent   301 Apr  6 17:39 if.c
+-rwxrwxr-x 1 vincent vincent 15968 Apr  7 00:34 initials
+-rwxrwxr-x 1 vincent vincent 16064 Apr  7 00:40 initials2
+-rwxrw-r-- 1 vincent vincent   251 Apr  7 00:40 initials2.c
+-rwxrw-r-- 1 vincent vincent   138 Apr  7 00:34 initials.c
+-rw-rw-r-- 1 vincent vincent     0 Apr  7 01:06 vincent.c
+     1	#include <stdio.h>
+
+     2	int main(void)
+
+     3	{
+     4		int age ;
+
+     5		printf("ENter your age here:");
+     6		scanf("%d", &age);
+
+     7		printf("You are %d years old\n", age);
+
+
+     8		if (age >=140)
+     9		{
+    10		printf("Invalid age\n");
+    11		}
+
+
+    12		else if (age <=-0)
+    13		{
+    14		printf("Invalid age\n");
+    15		}
+    16		else if (age >18)
+    17		{
+    18		printf("You are eligible to vote\n");
+    19		}
+
+    20		else
+    21		{
+    22		printf("You are not eligible to vote\n");
+    23		}
+
+    24		return(0);
+
+    25	}
+    26	#include <stdio.h>
+
+    27	int main(void)
+
+    28	{	
+    29		int age ;
+    30		
+    31		
+    32		printf("Please enter your age here:");
+    33		scanf("%d", &age);
+
+    34		printf("You are %d years old\n", age);
+    35		
+    36		
+
+    37		if (age <=0 || age >=129)
+
+    38		{
+    39		printf("INvalid age!\n");
+    40		}
+
+    41		else if (age >=18)
+    42		
+    43		
+    44		{
+    45		printf("you are eligible to vote Sir\n");
+    46		}
+    47		
+    48		else
+    49		
+    50		{
+    51		printf("You are not eligible to vote\n");
+    52		}
+
+    53		return(0);
+
+    54	}
+    55	#include <stdio.h>
+
+    56	int main(void)
+
+    57	{
+    58		int age ;
+
+    59		
+    60		printf("Enter your age here please:");
+    61		scanf("%d", &age);
+    62		printf("You are %d years old\n", age);
+
+    63		if(age >18)
+    64		{
+    65		printf("You are eligible to vote\n");
+    66		}
+
+    67		if(age <18)
+    68		{
+    69		printf("You are not eligible to vote please\n");
+    70		}
+    71		
+    72		return(0);
+    73		
+
+    74	}
+
+    75	#include <stdio.h>
+
+    76	int main(void)
+
+    77	{
+
+    78		int age = 20;
+
+
+
+    79		if(age >18)
+    80		{
+    81		printf("You are  eligible to vote\n");
+    82		}
+
+    83		if(age <18)
+    84		{
+    85		printf("You are not eligible to vote\n");
+    86		}
+
+    87		return(0);
+
+    88	}
+    89		
+    90	#include <stdio.h>
+
+    91	int main(void)
+
+    92	{	
+    93		int age;
+
+
+    94		printf("Enter your age here please:");
+    95		scanf("%d", &age);
+    96		printf("You are %d years old\n", age);
+
+    97		if(age >18)
+    98		{
+    99		printf("you are eligible to vote\n");
+   100		}
+
+   101		else if(age <18)
+   102		{
+   103		printf("You are not eligible to vote\n");
+   104		}
+
+   105	 	return(0);
+
+
+   106	}
+
+   107		
+   108	#include <stdio.h>
+
+   109	int main(void)
+
+   110	{
+   111		int age = 10;
+
+   112		if (age <18)
+   113		{
+   114		printf("You are not  eligible to vote\n");
+   115		}
+
+   116		else if (age >18)
+   117		{
+   118		printf("You are eligible to vote\n");
+   119		}
+
+   120		return(0);
+   121	}
+
+
+
+   122	#include <stdio.h>
+
+   123	int main(void)
+
+   124	{	
+   125		
+   126		printf("My initials are %c%c%c and my age is %d years old\n", 'V', 'I', 'A',28);
+   127		return (0);
+   128	}
+   129	#include <stdio.h>
+
+   130	int main(void)
+
+   131	{
+   132		char f, m, l;
+   133		int age;
+
+   134		printf("Enter your initials followed by your age:");
+   135		scanf("%c%c%c%d", &f, &m, &l, &age);
+   136		printf("My initials are %c%c%c and my age is %d years old\n", f, m, l, age);
+
+   137		return (0);
+
+   138	}

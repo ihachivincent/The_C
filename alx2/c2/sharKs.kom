@@ -1,0 +1,61 @@
+#include <stdio.h>
+
+int main(void)
+
+{
+	int a;
+
+	printf("Enter your data here:");
+	scanf("%d", &a);
+
+	while(a<7)
+
+	{
+	printf("Welcome to sharKs.kom app\n");
+	a++;
+	}
+	
+	
+	if(a>7)
+	{
+	printf("Thank you using sharKs.kom app\n");
+	}
+
+	
+	return(0);
+
+}
+
+
+#include <stdio.h>
+
+int main(void)
+
+{
+	int a;
+
+	printf("Enter the number here please:");
+	scanf("%d", &a);
+	
+	do
+
+	{
+	printf("Welcome sharKs.kom self help center\n");
+	a++;
+	}
+	while(a<=7);
+
+	{
+
+	if(a>8)
+
+	{
+	printf("Thank you for using sharKs.kom self help  center\n");
+	}
+	
+	}
+	
+	 return(0);
+}
+	
+	

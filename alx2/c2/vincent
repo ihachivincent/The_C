@@ -1,0 +1,60 @@
+#include <stdio.h>
+
+int main(void)
+
+{
+	int n;
+
+	for(n=1; n<=5; n++)
+	
+	{
+	if(n==3)
+	
+	{
+	printf("I UNDERSTAND THE USE OF BREAK\n");
+	break;
+	}
+	
+	{
+	printf("Number is=%d\n",n);
+	}
+
+	{
+	printf("Out of loop\n");
+	}
+
+	}
+	
+
+	return(0);
+
+}
+#include <stdio.h>
+
+int main(void)
+
+{
+	int n;
+
+	for(n=0; n<=5; n++)
+
+	{
+
+	if(n==3)
+
+	{
+	printf("I UNDERSTAND THE USE OF CONTINUE\n");
+	continue;
+	}
+
+	{
+	printf("Number=%d\n",n);
+	}
+
+	{
+	printf("Out of Loop\n");
+	}
+
+	}
+	return(0);
+}
