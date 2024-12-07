@@ -7,7 +7,7 @@ int main()
 
 	int n,m; //*a n represent number of students and m represents marks given out* //
 	int marks[m];
-	int sum;
+	int sum=0;
 
 	printf("Enter the number of students:");
 	scanf("%d",&n);
