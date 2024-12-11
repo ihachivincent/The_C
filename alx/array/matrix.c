@@ -61,7 +61,7 @@ int main()
 	for(int j=0; j<c; j++)
 
 	{
-	printf("%d\n", sum[i][j]);
+	printf("%d\t", sum[i][j]);
 
 	if(j==c-1)
 	
