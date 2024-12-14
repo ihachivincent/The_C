@@ -4,7 +4,7 @@ float average(float a[]);
 
 int main()
 {
-	float avg, c[]={22.4,45.6,45.9,21.4,56,8,12.5,67.90};
+	float avg,c[]={22.4,45.6,45.9,21.4,56,8,12.5,67.90};
 	avg =average(c);
 	printf("The avarge sum is %.2f\n", avg);
 
